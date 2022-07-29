@@ -13,7 +13,9 @@ Dr Can卡尔曼滤波例子的python实现
 
 3、imu+gps+ekf
 
+![ekf_demon](https://user-images.githubusercontent.com/33504360/181697350-0cfce503-194f-4dae-aa87-147fe774f95d.gif)
+
+
 可以看到随着时间的增加，带噪声的推算已经和真实值偏差越来越大，但是ekf融合后接近真实值，ekfyyds
 
 ![imu_gps_ekf_fusion](https://user-images.githubusercontent.com/33504360/181517547-caa3c48b-5e59-4871-bf54-d93aea7520f6.png)
-![image](https://github.com/xiaoxueshengyao/ke_test/blob/master/gif/ekf_demon.gif)
